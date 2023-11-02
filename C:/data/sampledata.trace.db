@@ -1,0 +1,6 @@
+2023-11-02 18:02:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPRESA" not found (this database is empty); SQL statement:
+select empresa0_.id as id1_0_0_, empresa0_.cep as cep2_0_0_, empresa0_.cidade as cidade3_0_0_, empresa0_.cnpj as cnpj4_0_0_, empresa0_.estado as estado5_0_0_, empresa0_.logradouro as logradou6_0_0_, empresa0_.nome as nome7_0_0_, empresa0_.numero_telefone as numero_t8_0_0_ from empresa empresa0_ where empresa0_.id=? [42104-214]
+2023-11-02 18:07:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPRESA" not found (this database is empty); SQL statement:
+select empresa0_.id as id1_0_, empresa0_.cep as cep2_0_, empresa0_.cidade as cidade3_0_, empresa0_.cnpj as cnpj4_0_, empresa0_.estado as estado5_0_, empresa0_.logradouro as logradou6_0_, empresa0_.nome as nome7_0_, empresa0_.numero_telefone as numero_t8_0_ from empresa empresa0_ [42104-214]

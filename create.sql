@@ -1,0 +1,3 @@
+create table empresa (id integer not null, cep varchar(255), cidade varchar(255), cnpj varchar(255), estado varchar(255), logradouro varchar(255), nome varchar(255), numero_telefone varchar(255), primary key (id));
+create table funcionario (id integer not null, email varchar(255), funcao_funcionario varchar(255), nome varchar(255), numero_telefone varchar(255), senha varchar(255), primary key (id));
+create table produto (id integer not null, genero varchar(255), marca varchar(255), nome varchar(255), preco_unitario varchar(255), quantidade varchar(255), tamanho varchar(255), tipo varchar(255), primary key (id));

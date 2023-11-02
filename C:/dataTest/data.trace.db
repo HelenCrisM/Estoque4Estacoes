@@ -1,0 +1,3 @@
+2023-11-02 18:14:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FUNCIONARIO" not found (this database is empty); SQL statement:
+select funcionari0_.id as id1_1_, funcionari0_.email as email2_1_, funcionari0_.funcao_funcionario as funcao_f3_1_, funcionari0_.nome as nome4_1_, funcionari0_.numero_telefone as numero_t5_1_, funcionari0_.senha as senha6_1_ from funcionario funcionari0_ [42104-214]
